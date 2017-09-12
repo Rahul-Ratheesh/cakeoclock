@@ -1,0 +1,196 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
+}
+
+#nav_bar {
+    background-color: white;
+    font-weight: bold; 
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+}
+
+#nav_brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: brown;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
+}
+
+#nav_brand:focus, 
+#nav_brand:hover {
+  font-weight: 800;
+}
+
+.header {
+    height: 720px;
+    width: 100%;
+    padding: 30px 0 30px;
+    margin-top: 50px;
+    background-image: url(../images/header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.header h1 {
+    color: brown;
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 30px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Satisfy', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.about {
+    padding: 80px 0 80px;
+    text-align: left;
+    background-color: #ecf0f1;
+}
+
+.about h1 {
+    margin: 20px 0 20px;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+.specialities {
+    padding: 80px 0 80px;
+    text-align: center;
+    background-color: #cc9d77;
+}
+
+.specialities h1 {
+    margin: 20px 0 20px;
+}
+
+.specialities p {
+    font-size: 18px;
+    margin: 20px 0 20px;
+    font-weight: bold;
+}
+
+.testimonials {
+    padding: 80px 0 80px;
+    text-align: center;
+    background-color: #e74c3c;
+    color: white;
+}
+
+.testimonials img {
+    width: 100px;
+    height: 100px;
+}
+
+.testimonials i {
+    color: yellow;
+}
+
+.testimonials h1,
+.testimonials h3,
+.testimonials h4 {
+    margin: 20px 0 40px;
+}
+
+.testimonials p {
+    font-size: 16px;
+    margin: 20px 0 20px;
+    font-weight: bold;
+}
+
+.testimonials img {
+    width: 100px;
+    height: 100px;
+}
+
+.gallary {
+    overflow: hidden;
+    background-color: #ecf0f1;
+}
+
+#cake_photo_1 {
+    transform: rotateZ(-5deg);
+    transition: 500ms ease all;
+}
+
+#cake_photo_1:hover {
+    transform: rotateZ(-10deg);
+    transition: 500ms ease all;
+}
+
+
+#cake_photo_2 {
+    transform: rotateZ(5deg);
+    transition: 500ms ease all;
+}
+
+#cake_photo_2:hover {
+    transform: rotateZ(10deg);
+    transition: 500ms ease all;
+}
+
+
+#cake_photo_3 {
+    transition: 500ms ease all;
+}
+
+#cake_photo_3:hover {
+    transform: rotateZ(5deg);
+    transition: 500ms ease all;
+}
+
+
+#cake_photo_4 {
+    transform: rotateZ(5deg);
+    transition: 500ms ease all;
+}
+
+#cake_photo_4:hover {
+    transform: rotateZ(0deg);
+    transition: 500ms ease all;
+}
+
+
+#cake_photo_5 {
+    transform: rotateZ(-5deg);
+    transition: 500ms ease all;
+}
+
+#cake_photo_5:hover {
+    transform: rotateZ(0deg);
+    transition: 500ms ease all;
+}
+
+#cake_photo_6 {
+    transform: rotateZ(2deg);
+    transition: 500ms ease all;
+}
+
+#cake_photo_6:hover {
+    transform: rotateZ(-5deg);
+    transition: 500ms ease all;
+}
+
+.contact {
+    padding: 80px 0 80px;
+    background-color: #ecf0f1;
+}
+
+.contact h2 {
+    margin: 40px 0 40px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin: 20px 0 20px;
+    font-weight: bold;
+}
