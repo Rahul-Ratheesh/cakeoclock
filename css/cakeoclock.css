@@ -1,14 +1,5 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
-}
-
 #nav_bar {
-    background-color: white;
+    background-color: #e8c8af;
     font-weight: bold; 
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     -webkit-transition: all 0.2s;
@@ -47,6 +38,15 @@ h6 {
     margin-top: 20px;
     text-align: center;
     font-family: 'Satisfy', 'Helvetica Neue', Arial, sans-serif;
+}
+
+@media(max-width: 760px) {
+
+    .header {
+        padding: 30px;
+        height: 750px;
+    }
+
 }
 
 .about {
@@ -113,6 +113,7 @@ h6 {
 }
 
 .gallary {
+    text-align: center;
     overflow: hidden;
     background-color: #ecf0f1;
 }
