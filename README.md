@@ -1,2 +1,6 @@
 # cakeoclock
-A responsive website designed to order cakes
+A cake ordering website designed for my dear friend Liana.
+
+https://rahul-ratheesh.github.io/cakeoclock/
+
+
